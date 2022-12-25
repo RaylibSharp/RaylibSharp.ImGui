@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <!-- this package not available on nuget yet -->
+        <PackageReference Include="RaylibSharp.Generated" Version="1.0.0" />
+        <PackageReference Include="ImGui.NET" Version="1.89.1" />
+    </ItemGroup>
+
+</Project>
